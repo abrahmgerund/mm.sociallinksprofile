@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Colors */
+:root {
+    --grey-700: hsl(0, 0%, 20%);
+    --grey-800: hsl(0, 0%, 12%);
+    --grey-900: hsl(0, 0%, 8%);
+    --white-font: hsl(0, 0%, 100%);
+    --highlight-font: hsl(75, 94%, 57%);
+}
+
+/* 
+html {
+    font-size: 14px;
+} */
+
+body {
+    font-size: 14px;
+    font-family: 'Inter',sans-serif;
+    background: var(--grey-900);
+    color: var(--white-font);
+}
+
+.container {
+    width: 1440px;
+    margin: 11rem auto;
+}
+
+.card {
+    background-color: var(--grey-800);
+    border-radius: 10px;
+    width: 24rem;
+    height: 38rem;
+    text-align: center;
+}
+
+.card .photo-jessica {
+    width: 23%;
+    margin: 2.5rem 2.5rem 1.5rem;
+    border-radius: 50px;
+}
+
+.card h2 {
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+.card .descript {
+    color: var(--highlight-font);
+    font-weight: 600;
+    margin: 0.5rem;
+}
+
+.card .descript-1 {
+    font-weight: 400;
+    color: #bbb;
+    margin: 1.6rem 1.6rem 1.2rem;
+}
+
+.card button {
+    background-color: var(--grey-700);
+    color: var(--white-font);
+    border-radius: 7px;
+    width: 79%;
+    height: 7.5%;
+    text-decoration: none;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    margin: .5rem;
+    font-size: 0.9rem;
+}
+
+.card button:hover {
+    background-color: hsl(0, 0%, 22%);
+}
+
+.card button:focus {
+    background-color: hsl(0, 0%, 18%);
+}
