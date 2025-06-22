@@ -82,3 +82,18 @@ body {
 .card button:focus {
     background-color: hsl(0, 0%, 18%);
 }
+
+
+@media (max-width: 375px) {
+    .card {
+        width: 21rem;
+    }
+
+    .card button {
+        width: 85%;
+    }
+
+    .card .photo-jessica {
+        width: 27%;
+    }
+}
